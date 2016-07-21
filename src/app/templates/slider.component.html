@@ -1,3 +1,40 @@
 <div class="slider">
-  Slider
+  <ngb-carousel>
+    <template ngbSlide>
+      <img src="src/app/stylesheets/images/slides/slide-1.jpg"
+          [style.width.%]="100"
+          [style.height.rem]="38.312">
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </template>
+    <template ngbSlide>
+      <img src="src/app/stylesheets/images/slides/slide-2.jpg" 
+          [style.width.%]="100"
+          [style.height.rem]="38.312">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </template>
+    <template ngbSlide>
+      <img src="src/app/stylesheets/images/slides/slide-3.jpg"
+          [style.width.%]="100"
+          [style.height.rem]="38.312">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </template>
+    <template ngbSlide>
+      <img src="src/app/stylesheets/images/slides/slide-4.jpg"
+          [style.width.%]="100"
+          [style.height.rem]="38.312">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </template>
+  </ngb-carousel>
 </div>

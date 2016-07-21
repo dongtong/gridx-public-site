@@ -20,8 +20,8 @@ import { FooterComponent } from './components/footer.component';
   selector: 'gridx',
   template: `
     <navs></navs>
+    <slider></slider>
     <div class="container">
-      <slider></slider>
       <vision></vision>
       <solution></solution>
       <product></product>
