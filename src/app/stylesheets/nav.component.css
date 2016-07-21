@@ -1,0 +1,44 @@
+.gx-nav {
+  box-shadow: 0px 5px 6px rgba(0,0,0,0.25);
+  background-color: #FFFFFF;
+  height: 100px;
+}
+
+.gx-navbar {
+  background-color: none !important;
+}
+
+.navbar {
+  padding: 0 !important;
+}
+
+.navbar-brand img{
+  padding: 1.562rem 0;
+}
+
+.nav {
+  margin: 2.375rem auto;
+}
+
+.navbar-nav .nav-item {
+  font-weight: 600 !important;
+  font-size: .75rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #42410B !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f3901d !important;
+}
+
+.navbar-nav .nav-item + .nav-item {
+  margin-left: 3.125rem !important;
+}
+
+#demo-request {
+  background-color: #f3901d;
+  color: #fff !important;
+  padding: 0.425rem 0.85rem !important;
+}

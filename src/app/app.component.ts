@@ -19,9 +19,8 @@ import { FooterComponent } from './components/footer.component';
 @Component({
   selector: 'gridx',
   template: `
-    <div>
-      <h1>{{pageTitle}}</h1>
-      <navs></navs>
+    <navs></navs>
+    <div class="container">
       <slider></slider>
       <vision></vision>
       <solution></solution>
