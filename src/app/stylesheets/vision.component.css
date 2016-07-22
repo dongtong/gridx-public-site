@@ -1,0 +1,40 @@
+.vision {
+  height: 14.375rem;
+  background: #4d4d4d;
+  color: #fff;
+  padding-top: 3.812rem;
+}
+
+.our-vision {
+  background: #666;
+  color: #fff;
+  font-size: 2.25rem;
+  text-align: left;
+  width: 14.625rem;
+  height: 3.063rem;
+  padding: .85rem 1.5rem;
+  line-height: 1.562rem;
+}
+
+.vision-main {
+  font-size: 1.312rem;
+  color: #fff;
+  text-align: left;
+  height: 7.2rem; /*7rem*/
+  overflow: hidden;
+}
+
+#show_more_vision {
+  color: #f3901d;
+  margin-left: .5rem;
+}
+
+#show_more_vision:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.vision-item {
+  margin-bottom: 1.312rem;
+  font-size: 1rem;
+}

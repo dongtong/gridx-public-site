@@ -21,15 +21,41 @@ import { FooterComponent } from './components/footer.component';
   template: `
     <navs></navs>
     <slider></slider>
-    <div class="container">
-      <vision></vision>
-      <solution></solution>
-      <product></product>
-      <about></about>
-      <leadership-team></leadership-team>
-      <customer-partner></customer-partner>
-      <contact></contact>
-      <footer></footer>
+    <vision></vision>
+    <div class="solutions">
+      <div class="container">
+        <solution></solution>
+      </div>
+    </div>
+    <div class="products">
+      <div class="container">
+        <product></product>
+      </div>
+    </div>
+    <div class="about">
+      <div class="container">
+         <about></about>
+      </div>
+    </div>
+    <div class="leadership-team">
+      <div class="container">
+         <leadership-team></leadership-team>
+      </div>
+    </div>
+    <div class="customer-partner">
+      <div class="container">
+         <customer-partner></customer-partner>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="container">
+         <contact></contact>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+         <footer></footer>
+      </div>
     </div>
   `,
   directives: [

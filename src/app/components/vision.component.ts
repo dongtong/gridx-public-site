@@ -9,8 +9,19 @@ import { Component, OnInit} from '@angular/core';
 export class VisionComponent implements OnInit {
    logoUrl: string = '';
    errorMessage: string;
+   // default more vision is hidden
+   showMoreVision: boolean = false;
    
   ngOnInit(): void {
       console.log('vision...');   
+  }
+
+  toggleMoreVision(): void {
+    this.showMoreVision = !this.showMoreVision;
+    if(this.showMoreVision) {
+      $('.more-vision').slideDown('slow');
+    } else {
+      $('.more-vision').slideUp('slow');
+    }
   }
 }
