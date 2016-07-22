@@ -1,4 +1,5 @@
-import { Component, OnInit} from '@angular/core';
+import { Component, ElementRef, OnInit} from '@angular/core';
+declare var jQuery: JQueryStatic;
 
 @Component({
   selector: 'vision',
@@ -7,21 +8,31 @@ import { Component, OnInit} from '@angular/core';
 })
 
 export class VisionComponent implements OnInit {
-   logoUrl: string = '';
    errorMessage: string;
    // default more vision is hidden
    showMoreVision: boolean = false;
+   $dom: any;
    
+  constructor(private _el: ElementRef) {
+    this.$dom = jQuery(this._el.nativeElement);
+  }
+
   ngOnInit(): void {
-      console.log('vision...');   
+      // const thisDom = this.$dom;
+      // thisDom.on('click', '#show_more_vision', function() {
+      //   thisDom.find('.more-visions').slideDown('slow');
+      // })
   }
 
   toggleMoreVision(): void {
     this.showMoreVision = !this.showMoreVision;
+    const thisDom = this.$dom,
+          moreVisions = thisDom.find('.more-visions');
+
     if(this.showMoreVision) {
-      $('.more-vision').slideDown('slow');
+      moreVisions.slideDown('slow');
     } else {
-      $('.more-vision').slideUp('slow');
+      moreVisions.slideUp('slow');
     }
   }
 }
