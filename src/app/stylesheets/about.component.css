@@ -1,0 +1,25 @@
+.about {
+  background: #f2901c;
+}
+
+.about-panel {
+  /*padding: 3.125rem auto;*/
+  padding-top: 3.125rem;
+  margin-bottom: 3.125rem;
+}
+
+.about-gridx {
+  width: 17.812rem;
+  height: 3.062rem;
+  padding: .85rem 1.5rem;
+  line-height: 1.562rem;
+  color: #4d4d4d;
+  font-size: 2.25rem;
+  background: #f39f3b;
+}
+
+.about .content {
+  margin-bottom: 3.125rem;
+  padding: 0 1.5rem;
+  /*font-size: 1.25rem;*/
+}
