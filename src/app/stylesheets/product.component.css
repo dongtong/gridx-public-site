@@ -1,0 +1,60 @@
+.products {
+  /*height: 33.1875rem;*/
+  background: url("src/app/stylesheets/images/products-bg.png") no-repeat;
+  background-size: cover;
+}
+
+.product-panel {
+  padding-top: 3.75rem;
+  margin-bottom: 3.937rem;
+}
+
+.our-product {
+  width: 17.812rem;
+  height: 3.062rem;
+  padding: .85rem 1.5rem;
+  line-height: 1.562rem;
+  color: #fff;
+  font-size: 2.25rem;
+  background: #000c11;
+}
+
+.product-icon {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.product-group {
+  text-align: center;
+  font-size: 1.125rem;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.product-group p {
+  margin-bottom: 0 !important;
+}
+
+.product-desc, .product-more{
+  font-size: .75rem;
+  color: #fff;
+  /*line-height: 1.31;*/
+  text-align: center;
+}
+
+.product-desc {
+  margin-bottom: .5rem;
+}
+
+.product-more {
+  color: #f2901c;
+  margin-bottom: 1rem;
+}
+
+.product-more:hover {
+  cursor: pointer;
+}
+
+
+

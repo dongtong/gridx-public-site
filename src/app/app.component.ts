@@ -23,11 +23,7 @@ import { FooterComponent } from './components/footer.component';
     <slider></slider>
     <vision></vision>
     <solution></solution>
-    <div class="products">
-      <div class="container">
-        <product></product>
-      </div>
-    </div>
+    <product></product>
     <div class="about">
       <div class="container">
          <about></about>
