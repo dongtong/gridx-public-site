@@ -1,0 +1,22 @@
+.solutions {
+  height: 35.625rem;
+  background-color: #F7F7F7;
+}
+
+.solutions .challenge-and-solution {
+  height: 35.625rem;  
+  
+    background: url("src/app/stylesheets/images/solution-bg-sm.png") no-repeat;
+  /*background-color: #f2901c;*/
+}
+
+
+/*.challenge-and-solution {
+  background-image: url("src/app/stylesheets/images/solution-bg.png");
+  background-repeat: no-repeat;
+}
+
+.solution-bg img {
+  position: absolute;
+  right: 0;
+}*/
