@@ -1,0 +1,65 @@
+.footer {
+  background: #333;
+  padding: 3rem 0 1.812rem;
+}
+
+.bottom-nav {
+  padding-bottom: 2rem;
+  border-bottom: 1px dotted #fff;
+}
+
+.bottom-nav>div,
+.bottom-contact>div {
+  padding-left: 0 !important;
+}
+
+.footer a {
+  color: #f3901d;
+  font-size: .875rem;
+  display: inline-block;
+  margin-right: 3rem;
+}
+
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+.action {
+  position: relative;
+}
+
+.action .demo-request {
+  margin-right: 0;
+  position: absolute;
+  right: 0;
+  background-color: #f3901d;
+  color: #fff !important;
+  padding: 0.425rem 0.85rem !important;
+}
+
+.bottom-contact {
+  margin-top: 2rem;
+  color: #fff;
+  font-size: .875rem;
+  position: relative;
+}
+
+.social-links {
+  position: absolute;
+  right: 0;
+}
+
+.bottom-contact a {
+  margin-right: .5rem;
+}
+
+.bottom-contact a:last-child {
+  margin-right: 0;
+}
+
+.copy-right {
+  padding-top: 4.5rem;
+  color: #fff;
+  font-size: .625rem;
+}

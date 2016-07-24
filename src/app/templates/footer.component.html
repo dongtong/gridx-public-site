@@ -1,3 +1,41 @@
 <div class="footer">
-  Footer
+  <div class="container">
+    <div class="row bottom-nav">
+      <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+        <a href="#solutions" class="footer-nav">SOLUTIONS</a>
+        <a href="#products" class="footer-nav">PRODUCTS</a>
+        <a href="#about" class="footer-nav">ABOUT US</a>
+        <a href="#vision" class="footer-nav">OUR VISION</a>
+        <a href="#contact" class="footer-nav">CONTACT US</a>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 action">
+        <a href="#deme-request" class="footer-nav pull-right demo-request">Demo Request</a>
+      </div>
+    </div>
+    <div class="row bottom-contact">
+      <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+        {{contactInfo}}
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 action">
+        <div class="social-links">
+          <a href="#twitter" class="social-nav">
+            <img src="src/app/stylesheets/images/social/twitter.png" alt="Twitter">
+          </a>
+          <a href="#gplus" class="social-nav">
+            <img src="src/app/stylesheets/images/social/g+.png" alt="G+">
+          </a>
+          <a href="#linkedin" class="social-nav">
+            <img src="src/app/stylesheets/images/social/linkedin.png" alt="Linkedin">
+          </a>
+          <a href="#facebook" class="social-nav">
+            <img src="src/app/stylesheets/images/social/facebook.png" alt="Facebook">
+          </a>
+        </div>
+      </div>
+    </div> 
+
+    <div class="row copy-right"
+         [innerHTML]='copyRight'>
+    </div>             
+  </div>
 </div>

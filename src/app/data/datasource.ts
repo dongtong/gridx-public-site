@@ -104,9 +104,14 @@ const Contact = {
   otherWords: 'For all other inquiries, please provide some information so we can put you in touch with the right person.'
 }
 
+const CopyRight = {
+  info: 'Copyright &copy; 2016 GridX Inc. All Rights Reserved.'
+}
+
 export {
   leadshipTeams,
   CusomtersAndPartners,
   RelatedUtilities,
-  Contact
+  Contact,
+  CopyRight
 };

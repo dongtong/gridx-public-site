@@ -28,11 +28,7 @@ import { FooterComponent } from './components/footer.component';
     <leadership-team></leadership-team>
     <customer-partner></customer-partner>
     <contact></contact>
-    <div class="footer">
-      <div class="container">
-         <footer></footer>
-      </div>
-    </div>
+    <footer></footer>
   `,
   directives: [
     NavComponent,

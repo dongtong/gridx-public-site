@@ -1,4 +1,6 @@
 import { Component, OnInit} from '@angular/core';
+import { Contact } from '../data/datasource';
+import { CopyRight } from '../data/datasource';
 
 @Component({
   selector: 'footer',
@@ -7,10 +9,12 @@ import { Component, OnInit} from '@angular/core';
 })
 
 export class FooterComponent implements OnInit {
-   logoUrl: string = '';
-   errorMessage: string;
+  contactInfo: string;
+  copyRight: string;
+  errorMessage: string;
    
   ngOnInit(): void {
-      console.log('footer...');   
+    this.contactInfo = `${Contact.address} ${Contact.inquiryEmail}`;    
+    this.copyRight = CopyRight.info;
   }
 }
