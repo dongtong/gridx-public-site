@@ -25,11 +25,7 @@ import { FooterComponent } from './components/footer.component';
     <solution></solution>
     <product></product>
     <about></about>
-    <div class="leadership-team">
-      <div class="container">
-         <leadership-team></leadership-team>
-      </div>
-    </div>
+    <leadership-team></leadership-team>
     <div class="customer-partner">
       <div class="container">
          <customer-partner></customer-partner>

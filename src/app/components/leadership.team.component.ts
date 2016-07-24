@@ -1,4 +1,7 @@
 import { Component, OnInit} from '@angular/core';
+import { ILeadship } from '../interfaces/ileadship';
+// import dummy data
+import { leadshipTeams } from '../data/datasource';
 
 @Component({
   selector: 'leadership-team',
@@ -7,10 +10,11 @@ import { Component, OnInit} from '@angular/core';
 })
 
 export class LeadershipTeamComponent implements OnInit {
-   logoUrl: string = '';
    errorMessage: string;
+   leadships: any[];
    
   ngOnInit(): void {
-      console.log('leadership team...');   
+    console.log('leadership team...');   
+    this.leadships = leadshipTeams.people;
   }
 }

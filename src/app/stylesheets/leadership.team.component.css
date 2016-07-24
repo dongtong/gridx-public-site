@@ -1,0 +1,31 @@
+.leadership-team {
+  background: #f1f1f1;
+}
+
+.leadship-team-panel {
+  padding-top: 3.125rem;
+  margin-bottom: 1.875rem;
+}
+
+.leadship-team-title {
+  width: 20.312rem;
+  height: 3.062rem;
+  padding: .85rem 1.5rem;
+  line-height: 1.562rem;
+  color: #f39f3b;
+  font-size: 2.25rem;
+  background: #fff;
+}
+
+.person-item {
+  text-align: center;
+}
+
+.person-icon {
+  margin-bottom: 1.25rem;
+}
+
+.person-name {
+  font-weight: 600;
+  font-size: 1.25rem;
+}

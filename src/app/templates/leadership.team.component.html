@@ -1,3 +1,26 @@
 <div class="leadership-team">
-  Leadership Team
+   <div class="container">
+      <div class="row leadship-team-panel">
+        <div class="leadship-team-title">
+          Leadship Team
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-3 col-lg-3"
+             *ngFor='let person of leadships'>
+            <div class="person-item">
+              <div class="person-icon">
+                <img src="{{person.icon}}" alt="{{person.firstName}},{{person.lastName}}">
+              </div>
+              <div class="person-name">
+                {{person.firstName}}, {{person.lastName}}
+              </div>
+              <div class="person-title">
+                <p>{{person.title}}</p>
+              </div>
+            </div>
+        </div>
+        
+      </div>
+    </div>     
 </div>
