@@ -1,0 +1,53 @@
+.contact {
+  background: url('src/app/stylesheets/images/contact-bg.png') no-repeat;
+  background-size: cover;
+}
+
+.contact-info-panel {
+  padding: 2.687rem 0 3.75rem;
+  color: #fff;
+  font-size: .937rem;
+  font-weight: normal;
+}
+
+.contact-info-panel p {
+  margin-bottom: 0;
+}
+
+.address .title {
+  font-weight: 600;
+}
+
+.address, .emails {
+  margin-bottom: 1.875rem;
+}
+
+.contact-form {
+  padding: 2.687rem 0 3.75rem 3.437rem;
+}
+
+.contact-form .form-control {
+  font-size: .7rem;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form .btn{
+  border-radius: 0;
+}
+
+.contact-form textarea {
+  height: 8rem;
+}
+
+.contact-form input {
+  background: #ececec;
+}
+
+.btn-gridx-primary {
+  background: #f3901d;
+  color: #fff;
+  float: right !important;
+  /*margin-right: .9375rem;*/
+  font-size: .75rem;
+}

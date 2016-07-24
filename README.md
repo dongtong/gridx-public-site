@@ -20,3 +20,10 @@
 
   When click each of them, browser will open a new window.
 
+- Contact
+
+  Remove Name, Email, Compony Type fields.
+  
+  Replace Reason as Subject.
+
+

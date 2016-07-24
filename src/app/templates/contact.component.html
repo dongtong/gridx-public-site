@@ -1,3 +1,48 @@
 <div class="contact">
-  Contact
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-4 contact-info-panel">
+        <div class="address">
+          <p class="title">GridX</p>
+          <p>{{address}} </p>
+        </div>
+        <div class="emails">
+          <p>General Inquiry: {{inquiryEmail}}</p>
+          <p>Careers: {{careersEmail}}</p>
+          <p>Customer Support: {{supportEmail}}</p>
+        </div>
+        <div class="others">
+          <p>{{otherWords}}</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-8 col-lg-8 contact-form">
+          <form>
+            <div class="row">
+              <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="subject" placeholder="REASON" [(ngModel)]='subject'>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="phone" placeholder="PHONE" [(ngModel)]='phone'>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="compony" placeholder="COMPANY" [(ngModel)]='company'>
+                </div>
+              </div>
+              <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <textarea class="form-control" id="message" placeholder="MESSAGE" [(ngModel)]='message'></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-10 col-sm-10 col-md-2 col-lg-12">
+                  <a class="btn btn-gridx-primary pull-right" href="mailto:{{mailTo}}?&subject={{subject}}&body={{getMessage()}}">Submit</a>
+                </div>
+            </div>
+          </form>
+
+      </div>
+    </div>
+  </div>
 </div>

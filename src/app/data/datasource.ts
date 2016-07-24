@@ -95,8 +95,18 @@ const RelatedUtilities = [
   }
 ];
 
+const Contact = {
+  mailTo: 'info@gridx.com',
+  address: '1525 McCarthy Blvd Suite 1118 Milpitas, CA 95035',
+  inquiryEmail: 'info@gridx.com',
+  careersEmail: 'careers@gridx.com',
+  supportEmail: 'support@gridx.com',
+  otherWords: 'For all other inquiries, please provide some information so we can put you in touch with the right person.'
+}
+
 export {
   leadshipTeams,
   CusomtersAndPartners,
-  RelatedUtilities
+  RelatedUtilities,
+  Contact
 };
