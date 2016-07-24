@@ -1,0 +1,53 @@
+.customer-partner {
+  background: #4d4d4d;
+}
+
+.customer-partner-panel {
+  padding-top: 2.562rem;
+  margin-bottom: 1.625rem;
+}
+
+.customer-partner-title {
+  width: 29rem;
+  height: 3.062rem;
+  padding: .85rem 1.5rem;
+  line-height: 1.562rem;
+  color: #fff;
+  font-size: 2.25rem;
+  background: #666;
+}
+
+.item-list {
+  margin-bottom: 1.25rem;
+  font-size: 1.125rem;
+  color: #fff;
+}
+
+.item-list .active {
+  color: #f3901d;
+}
+
+.item-nav {
+  display: inline-block;
+  width: 14rem;
+  padding: 0 10px;
+}
+
+.item-nav:hover {
+  cursor: pointer;
+}
+
+.item-nav:last-child {
+  border-right: none;
+}
+
+.customer-partner .items {
+  margin-bottom: 1.25rem;
+}
+
+.customer-partner .item {
+  text-align: center;
+  padding: .875rem;
+}
+
+

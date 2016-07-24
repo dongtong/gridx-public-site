@@ -1,4 +1,7 @@
 import { Component, OnInit} from '@angular/core';
+import { ICustomerAndPartner } from '../interfaces/icustomer.and.partner';
+// import dummy data
+import { CusomtersAndPartners } from '../data/datasource';
 
 @Component({
   selector: 'customer-partner',
@@ -7,10 +10,11 @@ import { Component, OnInit} from '@angular/core';
 })
 
 export class CustomerAndPartnerComponent implements OnInit {
-   logoUrl: string = '';
    errorMessage: string;
+   customersAndPartners: ICustomerAndPartner[];
    
   ngOnInit(): void {
       console.log('customer.and.partner...');   
+      this.customersAndPartners = CusomtersAndPartners;
   }
 }

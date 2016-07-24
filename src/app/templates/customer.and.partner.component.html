@@ -1,3 +1,26 @@
-<div class="customers-and-partners">
-  Customers and Partners
+<div class="customer-partner">
+  <div class="container">
+      <div class="row customer-partner-panel">
+        <div class="customer-partner-title">
+          Customers and Partners
+        </div>
+      </div>
+      <div class="row item-list">
+         <div class="col-sm-12 col-md-6 col-lg-6">
+           <div class="item-nav active">Energy Service Provider</div> | 
+           <div class="item-nav">Regulated Utilities</div> 
+         </div>
+      </div>
+      <div class="row items">
+        <div class="col-sm-12 col-md-2 col-lg-2 item"
+             *ngFor='let item of customersAndPartners'>
+          <div class="item-icon">
+            <a href="{{item.link}}" target='_blank'>
+              <img src="{{item.icon}}" alt="{{item.name}}" style="width:100%; height: 100%;">
+            </a>
+          </div>
+        </div>
+
+      </div>
+  </div>     
 </div>

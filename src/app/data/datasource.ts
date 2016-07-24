@@ -39,6 +39,43 @@ const leadshipTeams = {
   ]
 };
 
+const CusomtersAndPartners = [
+  {
+    icon: "src/app/stylesheets/images/customers_and_partners/smud.png",
+    link: "http://www.google.com",
+    name: "SMUD"
+  },{
+    icon: "src/app/stylesheets/images/customers_and_partners/sempra.png",
+    link: "http://www.google.com",
+    name: "SEMPRA"
+  },{
+    icon: "src/app/stylesheets/images/customers_and_partners/siemens.png",
+    link: "http://www.google.com",
+    name: "SIEMENS"
+  },{
+    icon: "src/app/stylesheets/images/customers_and_partners/china-e.png",
+    link: "http://www.google.com",
+    name: "CHINA-E"
+  },{
+    icon: "src/app/stylesheets/images/customers_and_partners/sempra.png",
+    link: "http://www.google.com",
+    name: "SEMPRA"
+  },{
+    icon: "src/app/stylesheets/images/customers_and_partners/smud.png",
+    link: "http://www.google.com",
+    name: "SMUD"
+  },{
+    icon: "src/app/stylesheets/images/customers_and_partners/sempra.png",
+    link: "http://www.google.com",
+    name: "SEMPRA"
+  },{
+    icon: "src/app/stylesheets/images/customers_and_partners/siemens.png",
+    link: "http://www.google.com",
+    name: "SIEMENS"
+  }
+];
+
 export {
-  leadshipTeams
+  leadshipTeams,
+  CusomtersAndPartners
 };
