@@ -1,5 +1,11 @@
 ## GridX Public Site
 
+### Environment
+
+- Node(6.3.0)
+
+- bootstrap 4 alpha
+
 ### Rules
 
 - REM and PX

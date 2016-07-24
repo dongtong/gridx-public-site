@@ -7,11 +7,13 @@
       </div>
       <div class="row item-list">
          <div class="col-sm-12 col-md-6 col-lg-6">
-           <div class="item-nav active">Energy Service Provider</div> | 
-           <div class="item-nav">Regulated Utilities</div> 
+           <div class="item-nav {{showTab === 0 ? 'active' : ''}}"
+                (click)='switchTab(0)'>Energy Service Provider</div> | 
+           <div class="item-nav {{showTab === 1 ? 'active' : ''}}"
+                (click)='switchTab(1)'>Regulated Utilities</div> 
          </div>
       </div>
-      <div class="row items">
+      <div class="row items" *ngIf='showTab === 0'>
         <div class="col-sm-12 col-md-2 col-lg-2 item"
              *ngFor='let item of customersAndPartners'>
           <div class="item-icon">
@@ -20,7 +22,16 @@
             </a>
           </div>
         </div>
-
+      </div>
+      <div class="row items" *ngIf='showTab === 1'>
+        <div class="col-sm-12 col-md-2 col-lg-2 item"
+             *ngFor='let item of relatedUtilities'>
+          <div class="item-icon">
+            <a href="{{item.link}}" target='_blank'>
+              <img src="{{item.icon}}" alt="{{item.name}}" style="width:100%; height: 100%;">
+            </a>
+          </div>
+        </div>
       </div>
   </div>     
 </div>

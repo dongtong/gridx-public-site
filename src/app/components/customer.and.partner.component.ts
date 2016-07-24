@@ -1,7 +1,7 @@
 import { Component, OnInit} from '@angular/core';
 import { ICustomerAndPartner } from '../interfaces/icustomer.and.partner';
 // import dummy data
-import { CusomtersAndPartners } from '../data/datasource';
+import { CusomtersAndPartners, RelatedUtilities } from '../data/datasource';
 
 @Component({
   selector: 'customer-partner',
@@ -12,9 +12,16 @@ import { CusomtersAndPartners } from '../data/datasource';
 export class CustomerAndPartnerComponent implements OnInit {
    errorMessage: string;
    customersAndPartners: ICustomerAndPartner[];
+   relatedUtilities: ICustomerAndPartner[];
+   showTab: number = 0;
    
   ngOnInit(): void {
       console.log('customer.and.partner...');   
       this.customersAndPartners = CusomtersAndPartners;
+      this.relatedUtilities = RelatedUtilities;
+  }
+
+  switchTab(tabNum: number): void {
+    this.showTab = tabNum;
   }
 }
