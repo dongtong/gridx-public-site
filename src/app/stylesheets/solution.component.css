@@ -1,22 +1,97 @@
 .solutions {
-  height: 35.625rem;
-  background-color: #F7F7F7;
+  /*height: 35.625rem;*/
+  background-color: #f2901c;;
+  background: url("src/app/stylesheets/images/solution-bg.png") no-repeat;
+  background-size: 100% 100%;
+  /*background-position: 36%;
+  background-size: 65% 100%;*/
 }
 
 .solutions .challenge-and-solution {
-  height: 35.625rem;  
+  /*height: 35.625rem;  */
   
-    background: url("src/app/stylesheets/images/solution-bg-sm.png") no-repeat;
   /*background-color: #f2901c;*/
 }
 
-
-/*.challenge-and-solution {
-  background-image: url("src/app/stylesheets/images/solution-bg.png");
-  background-repeat: no-repeat;
+.solutions-panel {
+  padding-top: 3.75rem;
+  margin-bottom: 3.937rem;
 }
 
-.solution-bg img {
-  position: absolute;
-  right: 0;
-}*/
+.our-solution {
+  width: 17.812rem;
+  height: 3.062rem;
+  padding: .85rem 1.5rem;
+  line-height: 1.562rem;
+  color: #f2901c;
+  font-size: 2.25rem;
+  background: #f5f5f5;
+}
+
+.solution-tab .title,
+.solution-tab .icon{
+  margin-bottom: .5rem;
+  text-align: center;
+}
+
+.solution-tab .title {
+  height: 2.5rem;
+}
+
+.solution-tab {
+  width: 9.5rem;
+  padding: .5rem 1rem;
+  height: 9rem;
+  display: inline-block;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.solution-tab:first-child{
+  margin-left: 7.8rem;
+}
+
+#energy_service_provider {
+  width: 12rem;
+}
+
+.solution-tab:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: #f7f7f7;
+}
+
+.solution-detail {
+  display: none;
+}
+.solution-detail.current {
+  display: block;
+}
+
+.challenge-and-solution {
+  padding-left: 8rem;
+  padding-bottom: 4.75rem;
+}
+
+.challenge-and-solution .challenge {
+  padding-left: 9rem;
+}
+
+.challenge {
+  margin-bottom: 2rem;
+}
+
+.challenge-and-solution .title {
+  font-size: 1.5rem;
+}
+
+.challenge-and-solution .content {
+  font-size: .812rem;
+}
+
+.challenge .title,
+.solution .content {
+  color: #fff;
+}

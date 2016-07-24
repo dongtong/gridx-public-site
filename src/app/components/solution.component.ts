@@ -1,4 +1,6 @@
 import { Component, OnInit} from '@angular/core';
+import { IChallengesAndSolutions } from '../interfaces/ichallenges.and.solutions';
+import { ChallengesAndSolutions } from '../data/datasource';
 
 @Component({
   selector: 'solution',
@@ -7,10 +9,15 @@ import { Component, OnInit} from '@angular/core';
 })
 
 export class SolutionComponent implements OnInit {
-   logoUrl: string = '';
-   errorMessage: string;
+  errorMessage: string;
+  challengesAndSolutions: IChallengesAndSolutions[];
+  showTab: number = 0;
    
   ngOnInit(): void {
-      console.log('solution...');   
+      this.challengesAndSolutions = ChallengesAndSolutions;
+  }
+
+  switchTab(num): void {
+    this.showTab = num;
   }
 }
