@@ -1,4 +1,6 @@
 import { Component, OnInit} from '@angular/core';
+import { ISlider } from '../interfaces/islider';
+import { Sliders } from '../data/datasource';
 import { NGB_CAROUSEL_DIRECTIVES } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -9,10 +11,10 @@ import { NGB_CAROUSEL_DIRECTIVES } from '@ng-bootstrap/ng-bootstrap';
 })
 
 export class SliderComponent implements OnInit {
-   logoUrl: string = '';
-   errorMessage: string;
+  sliders: ISlider[];
+  errorMessage: string;
    
   ngOnInit(): void {
-      console.log('slider...');   
+    this.sliders =  Sliders; 
   }
 }

@@ -1,3 +1,17 @@
+const Sliders = [{
+  imgUrl: "src/app/stylesheets/images/slides/slide-1.jpg",
+  caption: "Lorem ipsum dolor sit amet, consecteur adipiscing elit, Nullam volutpat, nisl at sollicitudin efficitur, diameros suscipit enim, quis rutrum ipsum nunc id tortor."
+},{
+  imgUrl: "src/app/stylesheets/images/slides/slide-2.jpg",
+  caption: "Lorem ipsum dolor sit amet, consecteur adipiscing elit, Nullam volutpat, nisl at sollicitudin efficitur, diameros suscipit enim, quis rutrum ipsum nunc id tortor."
+},{
+  imgUrl: "src/app/stylesheets/images/slides/slide-3.jpg",
+  caption: "Lorem ipsum dolor sit amet, consecteur adipiscing elit, Nullam volutpat, nisl at sollicitudin efficitur, diameros suscipit enim, quis rutrum ipsum nunc id tortor."
+},{
+  imgUrl: "src/app/stylesheets/images/slides/slide-4.jpg",
+  caption: "Lorem ipsum dolor sit amet, consecteur adipiscing elit, Nullam volutpat, nisl at sollicitudin efficitur, diameros suscipit enim, quis rutrum ipsum nunc id tortor."
+}];
+
 const ChallengesAndSolutions = [{
   "title": "Utilities",
   "icon": "src/app/stylesheets/images/solutions/utilities-icon.png",
@@ -131,6 +145,7 @@ const CopyRight = {
 }
 
 export {
+  Sliders,
   ChallengesAndSolutions,
   leadshipTeams,
   CusomtersAndPartners,
