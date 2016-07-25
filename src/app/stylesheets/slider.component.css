@@ -1,3 +1,31 @@
 .slider {
   position: relative;
 }
+
+.caption {
+  position: absolute;
+  width: 25.187rem;
+  height: 11.187rem;
+  text-align: left;
+  background-color: #323c46;
+  opacity: 0.92;
+  color: #fff;
+  top: 11.25rem;
+  left: 15rem;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 768px) {
+  .caption {
+    position: absolute;
+    width: 20rem;
+    height: 9rem;
+    text-align: left;
+    background-color: #323c46;
+    opacity: 0.92;
+    color: #fff;
+    top: 9.25rem;
+    left: 3rem;
+    padding: .5rem 1rem;
+  }
+}
