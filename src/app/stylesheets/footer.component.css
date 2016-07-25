@@ -29,14 +29,14 @@
   position: relative;
 }
 
-.action .demo-request {
+/*.action .demo-request {
   margin-right: 0;
   position: absolute;
   right: 0;
   background-color: #f3901d;
   color: #fff !important;
   padding: 0.425rem 0.85rem !important;
-}
+}*/
 
 .bottom-contact {
   margin-top: 2rem;
