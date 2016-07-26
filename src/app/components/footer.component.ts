@@ -5,7 +5,10 @@ import { CopyRight } from '../data/datasource';
 @Component({
   selector: 'footer',
   templateUrl: 'src/app/templates/footer.component.html',
-  styleUrls: ['src/app/stylesheets/footer.component.css']
+  styleUrls: [
+    'src/app/stylesheets/fonts.css',
+    'src/app/stylesheets/footer.component.css'
+  ]
 })
 
 export class FooterComponent implements OnInit {

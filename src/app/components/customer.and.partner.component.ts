@@ -6,7 +6,10 @@ import { CusomtersAndPartners, RelatedUtilities } from '../data/datasource';
 @Component({
   selector: 'customer-partner',
   templateUrl: 'src/app/templates/customer.and.partner.component.html',
-  styleUrls: ['src/app/stylesheets/customer.and.partner.component.css']
+  styleUrls: [
+    'src/app/stylesheets/fonts.css', 
+    'src/app/stylesheets/customer.and.partner.component.css'
+  ]
 })
 
 export class CustomerAndPartnerComponent implements OnInit {

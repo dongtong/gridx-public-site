@@ -4,7 +4,10 @@ import { Contact } from '../data/datasource';
 @Component({
   selector: 'contact',
   templateUrl: 'src/app/templates/contact.component.html',
-  styleUrls: ['src/app/stylesheets/contact.component.css']
+  styleUrls: [
+    'src/app/stylesheets/fonts.css', 
+    'src/app/stylesheets/contact.component.css'
+  ]
 })
 
 export class ContactComponent implements OnInit {

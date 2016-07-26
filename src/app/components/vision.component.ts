@@ -4,7 +4,10 @@ declare var jQuery: JQueryStatic;
 @Component({
   selector: 'vision',
   templateUrl: 'src/app/templates/vision.component.html',
-  styleUrls: ['src/app/stylesheets/vision.component.css']
+  styleUrls: [
+    'src/app/stylesheets/fonts.css',
+    'src/app/stylesheets/vision.component.css'
+  ]
 })
 
 export class VisionComponent implements OnInit {

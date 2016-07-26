@@ -6,7 +6,10 @@ import { leadshipTeams } from '../data/datasource';
 @Component({
   selector: 'leadership-team',
   templateUrl: 'src/app/templates/leadership.team.component.html',
-  styleUrls: ['src/app/stylesheets/leadership.team.component.css']
+  styleUrls: [
+    'src/app/stylesheets/fonts.css',
+    'src/app/stylesheets/leadership.team.component.css'
+    ]
 })
 
 export class LeadershipTeamComponent implements OnInit {
