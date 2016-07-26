@@ -1,4 +1,5 @@
 import { Component, OnInit} from '@angular/core';
+import { NGB_COLLAPSE_DIRECTIVES } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'navs',
@@ -6,14 +7,15 @@ import { Component, OnInit} from '@angular/core';
   styleUrls: [
     'src/app/stylesheets/fonts.css',
     'src/app/stylesheets/nav.component.css'
-  ]
+  ],
+  directives: [NGB_COLLAPSE_DIRECTIVES]
 })
 
 export class NavComponent implements OnInit {
-   logoUrl: string = '';
    errorMessage: string;
+   private isCollapsed: boolean = true;
    
   ngOnInit(): void {
-      console.log('navs...');   
+       
   }
 }

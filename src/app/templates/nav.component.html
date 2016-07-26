@@ -1,10 +1,12 @@
 <div class="pos-f-t gx-nav">
   <div class="container">
 
-      <nav class="navbar navbar-light navbar-static-top">
-              <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header">
+      <!--<nav class="navbar navbar-light navbar-static-top">-->
+              <!--<button (click)="isCollapsed = !isCollapsed" class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header">
                 &#9776;
-              </button>
+              </button>-->
+              
+
               <div class="collapse navbar-toggleable-xs" id="navbar-header">
                 <a class="navbar-brand" href="/">
                   <img src="src/app/stylesheets/images/logo.png" alt="GridX">
@@ -27,20 +29,26 @@
                   </li>
                 </ul>
               </div>
-      </nav> <!-- /navbar -->
+              <div (click)="isCollapsed = !isCollapsed" class="navbar navbar-light navbar-static-top hidden-sm-up">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header">
+                    &#9776;
+                  </button>
+              </div>
+              <div class="collapse" id="navbar-header" [ngbCollapse]="isCollapsed">
+                <div class="container-fluid p-a-1">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 nav-item"><a class="nav-link" href="#vision">VISION <span class="sr-only">(current)</span></a></div>
+                      <div class="col-xs-12 col-sm-12 nav-item"><a class="nav-link" href="#solutions">SOLUTIONS</a></div>
+                      <div class="col-xs-12 col-sm-12 nav-item"><a class="nav-link" href="#products">PRODUCTS</a></div>
+                      <div class="col-xs-12 col-sm-12 nav-item"><a class="nav-link" href="#about">ABOUT US</a></div>
+                      <div class="col-xs-12 col-sm-12 nav-item"><a class="nav-link" href="#contact">CONTACT US</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-      <div class="collapse" id="navbar-header">
-        <div class="container-fluid p-a-1">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 nav-item"><a class="nav-link" href="#vision">VISION <span class="sr-only">(current)</span></a></div>
-              <div class="col-xs-12 col-sm-12 nav-item"><a class="nav-link" href="#solutions">SOLUTIONS</a></div>
-              <div class="col-xs-12 col-sm-12 nav-item"><a class="nav-link" href="#products">PRODUCTS</a></div>
-              <div class="col-xs-12 col-sm-12 nav-item"><a class="nav-link" href="#about">ABOUT US</a></div>
-              <div class="col-xs-12 col-sm-12 nav-item"><a class="nav-link" href="#contact">CONTACT US</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
+             
+      <!--</nav>-->
   </div>
 </div>
