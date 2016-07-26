@@ -27,11 +27,11 @@
   font-size: .75rem;
 }
 
-.navbar-light .navbar-nav .nav-link {
+#navbar-header .nav-link {
   color: #42410B !important;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+#navbar-header .nav-link:hover {
   color: #f3901d !important;
 }
 
