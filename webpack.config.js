@@ -19,7 +19,8 @@ module.exports = {
     module: {
       loaders: [
         {test: /\.ts$/, loader: 'ts'},
-        { test: /\.(woff2?|ttf|eot|svg)$/, loader: 'url?limit=10000' },
+        {test: /\.css$/, loaders: ['style', 'css']},
+        {test: /\.(woff(2)?|ttf|eot|svg)$/, loader: 'url?limit=10000' },
       ],
       
     },
