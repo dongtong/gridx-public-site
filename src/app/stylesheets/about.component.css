@@ -3,9 +3,9 @@
 }
 
 .about-panel {
-  /*padding: 3.125rem auto;*/
   padding-top: 3.125rem;
   margin-bottom: 3.125rem;
+  font-family: 'Conv_FiraSans-Light';
 }
 
 .about-gridx {
