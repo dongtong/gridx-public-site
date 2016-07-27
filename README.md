@@ -1,4 +1,4 @@
-## GridX Public Site
+## Angular 2 Demo
 
 ### Environment
 
@@ -6,24 +6,31 @@
 
 - bootstrap 4 alpha
 
+- Angular 2 RC
+
+### How to Run
+
+1. Checkout code 
+
+2. Install related npm libraries
+
+      npm install
+
+3. Install TypeScript related libraries
+
+     $(npm bin)/typings install
+
+4. Run server
+
+     npm run server
+
+5. Build
+
+     npm run build
+
 ### Rules
 
 - REM and PX
 
       1 rem = 16px
-
-- Customers And Partners
-
-  Removed Government section.
-
-  Provide energy service provider and regulated utilities images and outer link in data/customers_and_partners.ts file.
-
-  When click each of them, browser will open a new window.
-
-- Contact
-
-  Remove Name, Email, Compony Type fields.
-  
-  Replace Reason as Subject.
-
 
