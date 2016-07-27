@@ -19,6 +19,11 @@
   font-family: 'Conv_FiraSans-Light';
 }
 
+#pics_list>div {
+  padding-left: .625rem;
+  padding-right: .625rem;
+}
+
 .person-item {
   text-align: center;
 }
@@ -30,4 +35,12 @@
 .person-name {
   font-weight: 600;
   font-size: 1.25rem;
+}
+
+/*xs*/
+@media (max-width: 768px) {
+  .person-item img {
+    width: 8.437rem;
+    height: 8.437rem;
+  }
 }
