@@ -52,3 +52,9 @@
   /*margin-right: .9375rem;*/
   font-size: .75rem;
 }
+
+@media (max-width: 768px) {
+  .contact-info-panel {
+    padding: .625rem;
+  }
+}

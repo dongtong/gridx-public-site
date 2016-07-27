@@ -9,7 +9,6 @@
 
 .customer-partner-title {
   width: 29rem;
-  height: 3.062rem;
   padding: .85rem 1.5rem;
   line-height: 1.562rem;
   color: #fff;
@@ -55,4 +54,14 @@
   display: none;
 }
 
+
+/*xs*/
+@media (max-width: 768px) {
+  .customer-partner-title {
+    width: 100%;
+  }
+   .split {
+     display: none;
+   }
+}
 

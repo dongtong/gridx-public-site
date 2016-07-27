@@ -37,37 +37,37 @@ const ChallengesAndSolutions = [{
 const leadshipTeams = {
   "people": [
     {
-      "icon": "src/app/stylesheets/images/190x190.png",
+      "icon": "src/app/stylesheets/images/team/190x190.png",
       "firstName": "Name",
       "lastName": "Last Name",
       "title": "Title Goes Here"
     },{
-      "icon": "src/app/stylesheets/images/190x190.png",
+      "icon": "src/app/stylesheets/images/team/190x190.png",
       "firstName": "Name",
       "lastName": "Last Name",
       "title": "Title Goes Here"
     },{
-      "icon": "src/app/stylesheets/images/190x190.png",
+      "icon": "src/app/stylesheets/images/team/190x190.png",
       "firstName": "Name",
       "lastName": "Last Name",
       "title": "Title Goes Here"
     },{
-      "icon": "src/app/stylesheets/images/190x190.png",
+      "icon": "src/app/stylesheets/images/team/190x190.png",
       "firstName": "Name",
       "lastName": "Last Name",
       "title": "Title Goes Here"
     },{
-      "icon": "src/app/stylesheets/images/190x190.png",
+      "icon": "src/app/stylesheets/images/team/190x190.png",
       "firstName": "Name",
       "lastName": "Last Name",
       "title": "Title Goes Here"
     },{
-      "icon": "src/app/stylesheets/images/190x190.png",
+      "icon": "src/app/stylesheets/images/team/190x190.png",
       "firstName": "Name",
       "lastName": "Last Name",
       "title": "Title Goes Here"
     },{
-      "icon": "src/app/stylesheets/images/190x190.png",
+      "icon": "src/app/stylesheets/images/team/190x190.png",
       "firstName": "Name",
       "lastName": "Last Name",
       "title": "Title Goes Here"
@@ -77,35 +77,35 @@ const leadshipTeams = {
 
 const CusomtersAndPartners = [
   {
-    icon: "src/app/stylesheets/images/customers_and_partners/smud.png",
+    icon: "src/app/stylesheets/images/customers_and_partners/190x190.png",
     link: "http://www.google.com",
     name: "SMUD"
   },{
-    icon: "src/app/stylesheets/images/customers_and_partners/sempra.png",
+    icon: "src/app/stylesheets/images/customers_and_partners/190x190.png",
     link: "http://www.google.com",
     name: "SEMPRA"
   },{
-    icon: "src/app/stylesheets/images/customers_and_partners/siemens.png",
+    icon: "src/app/stylesheets/images/customers_and_partners/190x190.png",
     link: "http://www.google.com",
     name: "SIEMENS"
   },{
-    icon: "src/app/stylesheets/images/customers_and_partners/china-e.png",
+    icon: "src/app/stylesheets/images/customers_and_partners/190x190.png",
     link: "http://www.google.com",
     name: "CHINA-E"
   },{
-    icon: "src/app/stylesheets/images/customers_and_partners/sempra.png",
+    icon: "src/app/stylesheets/images/customers_and_partners/190x190.png",
     link: "http://www.google.com",
     name: "SEMPRA"
   },{
-    icon: "src/app/stylesheets/images/customers_and_partners/smud.png",
+    icon: "src/app/stylesheets/images/customers_and_partners/190x190.png",
     link: "http://www.google.com",
     name: "SMUD"
   },{
-    icon: "src/app/stylesheets/images/customers_and_partners/sempra.png",
+    icon: "src/app/stylesheets/images/customers_and_partners/190x190.png",
     link: "http://www.google.com",
     name: "SEMPRA"
   },{
-    icon: "src/app/stylesheets/images/customers_and_partners/siemens.png",
+    icon: "src/app/stylesheets/images/customers_and_partners/190x190.png",
     link: "http://www.google.com",
     name: "SIEMENS"
   }
@@ -113,19 +113,19 @@ const CusomtersAndPartners = [
 
 const RelatedUtilities = [
   {
-    icon: "src/app/stylesheets/images/customers_and_partners/smud.png",
+    icon: "src/app/stylesheets/images/customers_and_partners/190x190.png",
     link: "http://www.google.com",
     name: "SMUD"
   },{
-    icon: "src/app/stylesheets/images/customers_and_partners/sempra.png",
+    icon: "src/app/stylesheets/images/customers_and_partners/190x190.png",
     link: "http://www.google.com",
     name: "SEMPRA"
   },{
-    icon: "src/app/stylesheets/images/customers_and_partners/siemens.png",
+    icon: "src/app/stylesheets/images/customers_and_partners/190x190.png",
     link: "http://www.google.com",
     name: "SIEMENS"
   },{
-    icon: "src/app/stylesheets/images/customers_and_partners/china-e.png",
+    icon: "src/app/stylesheets/images/customers_and_partners/190x190.png",
     link: "http://www.google.com",
     name: "CHINA-E"
   }
