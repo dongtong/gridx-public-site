@@ -90,3 +90,33 @@
 .solution .content {
   color: #fff;
 }
+
+/*xs*/
+@media (max-width: 768px) {
+  .solutions {
+    background-image: none;
+    padding: .5rem;
+  }
+
+  .solution-tab {
+    margin-left: 0;
+    width: 9.5rem;
+  }
+
+  .solution-tab:first-child {
+    margin-left: 0;
+  }
+  
+  .challenge .title,
+  .solution .content {
+    color: #666;
+  }
+
+  .challenge-and-solution {
+    padding-left: 0;
+  }
+
+  .challenge-and-solution .challenge {
+    padding-left: 0;
+  }
+}
